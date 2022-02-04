@@ -63,6 +63,7 @@ const [tulos, setTulos] = useState(0);
       <label>Male</label>
       <input type='radio'
       value={sukupuoli}
+      name='sukupuoli'
       onChange={e=> setSukupuoli(e.target.value)}
       />
     </div>
@@ -70,6 +71,7 @@ const [tulos, setTulos] = useState(0);
       <label>Female</label>
       <input type='radio'
       value={sukupuoli}
+      name='sukupuoli'
       onChange={e=> setSukupuoli(e.target.value)}
       />
      </div> 
