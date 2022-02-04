@@ -73,7 +73,9 @@ const [tulos, setTulos] = useState(0);
       onChange={e=> setSukupuoli(e.target.value)}
       />
      </div> 
-     <br></br>
+
+    <br></br>
+
     <button onClick={alcometer}>Calculate</button>
     
     <br></br>
