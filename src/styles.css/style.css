@@ -44,7 +44,7 @@ button{
     color: rgb(255, 227, 224);
 }
 button:hover{
-    background-color: blueviolet;
+    background-color: rgb(104, 3, 50);
 }
 input[type=radio] {
     width: 10%;
