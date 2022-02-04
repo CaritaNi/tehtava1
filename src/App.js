@@ -1,5 +1,5 @@
-import './App.css';
 import { useState } from 'react';
+import './styles.css/style.css'
 
 function App() {
 const [paino, setPaino] = useState(0);
@@ -46,36 +46,41 @@ const [tulos, setTulos] = useState(0);
        onChange={e=> setPaino(e.target.value)}/>
     </div>
     <div>
-      <label>Bottles: </label>
+      <label>Bottles:</label>
       <input id='bottles'
        type='number'
        value={pullot}
        onChange={e=> setPullot(e.target.value)}/>
     </div>
     <div>
-      <label>Time: </label>
+      <label>Time : </label>
       <input id='time'
        type='number'
        value={aika}
        onChange={e=> setAika(e.target.value)}/>
     </div>
     <div>
-      <label>Mies</label>
-      <input type='radio'
+      <label>Male</label>
+      <input type='radio' id="radio"
       value={sukupuoli}
       onChange={e=> setSukupuoli(e.target.value)}
       />
     </div>
     <div>
-      <label>Nainen</label>
-      <input type='radio'
+      <label>Female</label>
+      <input type='radio' id="radio"
       value={sukupuoli}
       onChange={e=> setSukupuoli(e.target.value)}
       />
      </div> 
+     <br></br>
     <button onClick={alcometer}>Calculate</button>
+    
+    <br></br>
+    <br></br>
+
     <div>
-      <label>Tuloksesi: </label>
+      <label>Result :</label> <br></br>
       <output>{tulos.toFixed(1)}</output>
     </div>
 
@@ -84,3 +89,4 @@ const [tulos, setTulos] = useState(0);
 }
 
 export default App;
+

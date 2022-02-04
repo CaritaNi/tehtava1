@@ -1,0 +1,63 @@
+body{ 
+    background-color:rgb(247,163,153);
+    font-family: 'Bebas Neue', cursive;
+    text-align:  center;
+    color: rgb(239, 99, 81);
+}
+form{
+    border: 5px;
+    border-style: double;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    background-color: rgb(255, 227, 224);
+    padding: 15px;
+}
+h3, output{
+    font-size: 8em;
+    font-style:oblique;
+    margin: 20px;
+}
+label{
+    font-size: 2em;
+    padding-right: 10px;
+    text-decoration:underline;
+    margin-right: 20px; 
+    display: inline-block;
+    width: 210px;
+}
+input{
+    font-size: 2em;
+    border-radius: 10px;
+    background-color:rgb(239, 99, 81);
+    color: rgb(255, 227, 224);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+button{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    width: 8em;
+    border-radius: 10px;
+    background-color:rgb(239, 99, 81);
+    color: rgb(255, 227, 224);
+}
+button:hover{
+    background-color: brown;
+}
+input[type='radio']:after {
+    width: 30px;
+    height: 30px;
+    background-color: #d1d3d1;
+    content: '';
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(109, 1, 1, 0.842);
+    content: '';
+    border: 2px solid white;
+}
